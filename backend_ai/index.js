@@ -8,7 +8,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 require("./conn");
 
@@ -27,6 +27,10 @@ const ResumeRoutes = require("./Routes/resume");
 app.use("/api/user", UserRoutes);
 app.use("/api/resume", ResumeRoutes);
 
-app.listen(PORT, () => {
+app.get("/", (req, res) => {
+  res.send("API IS WORKING");
+});
+
+app.listen(PORT, "0.0.0.0", () => {
   console.log("backend is running on port", PORT);
 });
