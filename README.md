@@ -98,8 +98,6 @@ MONGO_URI=your_mongodb_connection_string
 CO_API_KEY=your_cohere_api_key
 ```
 
-> ⚠️ Never upload your `.env` file or API keys to GitHub.
-
 ### 4. Start the Backend
 
 ```bash
@@ -212,24 +210,6 @@ This application uses **MongoDB Atlas** to store:
 * Job descriptions
 * Match scores
 * AI feedback
-
-Each user should create their own MongoDB Atlas database and configure the connection string in `.env`.
-
----
-
-## 🔐 Privacy & Security
-
-This repository does **not** contain private database credentials or API keys.
-
-Never upload:
-
-* `.env`
-* MongoDB passwords
-* MongoDB credentials
-* Cohere API keys
-* Access tokens
-
-Sensitive credentials should always be stored in environment variables.
 
 ---
 
