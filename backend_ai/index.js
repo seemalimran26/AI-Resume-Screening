@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: "https://ai-cv-screening.up.railway.app/",
+    origin: "https://ai-cv-screening.up.railway.app",
   }),
 );
 
