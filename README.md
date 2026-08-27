@@ -64,7 +64,7 @@ AI-Resume-Screening/
 
 1. Clone the Repository
 
-git clone (https://github.com/seemalimran26/AI-Resume-Screening.git)
+git clone https://github.com/seemalimran26/AI-Resume-Screening.git
 cd public_ai_resume_mern-main
 
 2. Backend Setup
