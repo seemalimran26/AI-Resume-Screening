@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://independent-gentleness-production-6762.up.railway.app/",
   withCredentials: true,
 });
 
